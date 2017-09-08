@@ -3,21 +3,31 @@
 <head>
 	<title>Trivia Game</title>
   	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
-<div class="start">
-	<button id="start">Start</button>
-</div>
+<div class="wrapper">
+		
+	<div class="tv">
 
-<div class="seconds-left"></div>
+		<div class="seconds-left"></div>
 
-<section id="questions"></section>
+		<img src="assets/images/vintage-tv.png">
+		
+		<div id="start">START</div>
 
-<div id="start-over"></div>
+		<section id="questions">
+			<img class="heading" src="assets/images/seinfeld.png">
+			<h1>TRIVIA</h1>
+		</section>
 
+		<div id="start-over"></div>
+
+	</div>
 
 <script src="assets/javascript/app.js"></script>
 
