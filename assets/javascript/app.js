@@ -18,8 +18,14 @@ var userIncorrect = 0;
 var userUnanswered = 0;
 
 
+// Gets Link for Theme Song
+var audioElement = document.createElement("audio");
+audioElement.setAttribute("src", "assets/seinfeld-clip.mp3");
+
+
 // When user presses "start" at the beginning of the game, start the timer and the game
 $("body").on("click", "#start", function() { 
+	audioElement.play();
 	startTimer();
 	startGame();
 });
