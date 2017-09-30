@@ -4,9 +4,13 @@
 
 Created during Week 3 of Rutgers Coding Bootcamp. The challenge was to create a Trivia game of your choice using JavaScript for the logic and jQuery to manipulate HTML. I took on the advanced version that required the game to display only one question at a time and advances to the next question once the player answers or once the timer runs out. 
 
+## Demonstration
+
+![seinfelddemo](assets/seinfeldDemo.gif)
+
 ## Utilizing the App
 
-* View the app: [Github Pages Project Link](https://nicolelcarvalho.github.io/TriviaGame/)
+* View the app: [Github Pages Project Link](https://nicolelcarvalho.github.io/Trivia-Game/)
 
 * A TV is displayed on the screen. The player must click "Start Game" to begin the questions.
 * The player is then prompted with a Seinfeld trivia question and 4 choices. They have 25 second to answer the question. 
